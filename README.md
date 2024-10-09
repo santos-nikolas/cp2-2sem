@@ -33,6 +33,7 @@ Este projeto tem como finalidade a criação de um sistema que realiza a anális
 ### Requisitos
 - Python 3.x
 - Recomenda-se usar Google Colab para uma experiência mais rápida e visual.
+- adicionar o dataset (arquivo .csv do repositório) a /content no colab
 - Instale as seguintes bibliotecas: `pandas`, `matplotlib`, `seaborn`, `jinja2`, `base64`, `io`, `os`
 
 ### Etapas de Execução
