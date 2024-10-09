@@ -82,6 +82,6 @@ IFrame(report_path, width=800, height=600)
 
 ## Contato
 Para dúvidas ou sugestões, entre em contato com os integrantes do projeto:
-- Nikolas Rodrigues Moura dos Santos - [LinkedIn](www.linkedin.com/in/nikolas-dos-santos-2a325a21a)
+- Nikolas Rodrigues Moura dos Santos - [LinkedIn](www.linkedin.com/in/nikolas-dos-santos)
 - Rodrigo Brasileiro - [LinkedIn](https://www.linkedin.com/in/rodrigo-brasileiro-54031b249/)
 - Thiago Jardim de Oliveira - [LinkedIn](https://www.linkedin.com/in/thiago-jardim-490164298/)
