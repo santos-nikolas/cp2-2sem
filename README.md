@@ -1,5 +1,3 @@
-Aqui está uma versão reformulada do README:
-
 # Sistema de Análise Automatizada de Dados
 
 ## Visão Geral
@@ -25,10 +23,10 @@ Este projeto tem como finalidade a criação de um sistema que realiza a anális
 ## Estrutura do Sistema
 1. **Template HTML**: Utiliza um layout com Bootstrap para organizar as estatísticas e gráficos de maneira visualmente agradável.
 2. **Funções principais**:
-   - `resumo_df(df)`: Calcula e retorna as principais estatísticas do dataset.
+   - `summarize_df(df)`: Calcula e retorna as principais estatísticas do dataset.
    - `plot_64(fig)`: Converte gráficos em strings Base64 para inclusão direta no HTML.
-   - `criar_plot(df)`: Cria gráficos para variáveis categóricas e numéricas.
-   - `gerar_html(df)`: Usa o template HTML para renderizar os gráficos e estatísticas no relatório.
+   - `create_plot(df)`: Cria gráficos para variáveis categóricas e numéricas.
+   - `to_html(df)`: Usa o template HTML para renderizar os gráficos e estatísticas no relatório.
 
 ## Como Utilizar
 
@@ -45,7 +43,7 @@ Este projeto tem como finalidade a criação de um sistema que realiza a anális
    ```
 3. Execute o código e carregue o dataset desejado, como por exemplo:
    ```python
-   df = pd.read_csv('/content/Diabetes.csv')
+   df = pd.read_csv('/content/pokemonDB_dataset.csv')
    ```
 4. O relatório HTML será gerado automaticamente e exibido no Colab por meio de um `IFrame`.
 
@@ -60,8 +58,8 @@ O relatório HTML gerado possui as seguintes seções:
 ## Exemplo de Uso
 Caso queira rodar um teste rápido, utilize o seguinte exemplo de dataset:
 ```python
-df = pd.read_csv('/content/Diabetes.csv')
-report_path = gerar_html(df)
+df = pd.read_csv('/content/pokemonDB_dataset.csv')
+report_path = to_html(df)
 ```
 
 O arquivo HTML será salvo no diretório `/content/relatorio.html`. Para visualizá-lo no Colab, utilize o código:
