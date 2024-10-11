@@ -27,6 +27,7 @@ Este projeto tem como finalidade a criação de um sistema que realiza a anális
    - `plot_64(fig)`: Converte gráficos em strings Base64 para inclusão direta no HTML.
    - `create_plot(df)`: Cria gráficos para variáveis categóricas e numéricas.
    - `to_html(df)`: Usa o template HTML para renderizar os gráficos e estatísticas no relatório.
+   - `generate_report(df)`: Função principal para gerar relatório
 
 ## Como Utilizar
 
@@ -54,7 +55,7 @@ O relatório HTML gerado possui as seguintes seções:
 - **Tipos de Dados**: Apresenta a lista de colunas e seus respectivos tipos de dados.
 - **Classificação das Variáveis**: Exibe a quantidade de variáveis numéricas e categóricas.
 - **Células Ausentes**: Informa a quantidade de valores faltantes em cada coluna.
-- **Visualização Gráfica**: Inclui histogramas e gráficos de contagem organizados de forma responsiva.
+- **Visualização Gráfica**: Inclui histogramas e gráficos de contagem organizados de forma responsiva, cada gráfica contendo uma descrição simples do que é possível visualizar através dele.
 
 ## Exemplo de Uso
 Caso queira rodar um teste rápido, utilize o seguinte exemplo de dataset:
